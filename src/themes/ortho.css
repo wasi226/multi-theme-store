@@ -1,0 +1,50 @@
+/* Ortho Theme */
+body {
+  background-color: #f3f4f6;
+  color: #111827;
+  font-family: 'Verdana', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Georgia', serif;
+}
+
+a {
+  color: #d97706;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #d97706;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b45309;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+
+:root.ortho {
+  --bg: #f3e8ff;
+  --text: #4b0082;
+  --accent: #9c27b0;
+}

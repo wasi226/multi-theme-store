@@ -1,0 +1,26 @@
+
+/* Default Theme */
+body {
+  background-color: #f9fafb;
+  color: #333;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+}
+
+header {
+  background-color: #4caf50;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+}
+
+:root.default {
+  --bg: #f8fafc;
+  --text: #0f172a;
+  --accent: #2563eb;
+}
